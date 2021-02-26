@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="supermarket_product_action" model="ir.actions.act_window">
+        <field name="name">Supermarket Products</field>
+        <field name="res_model">supermarket.product</field>
+        <field name="view_mode">kanban,tree,form,calendar</field>
+    </record>
+
+    <record id="supermarket_product_calendar_action" model="ir.actions.act_window">
+        <field name="name">Supermarket Products</field>
+        <field name="res_model">supermarket.product</field>
+        <field name="view_mode">calendar</field>
+    </record>
+
+
+    <menuitem name="My Supermarket" id="supermarket_base_menu"/>
+    <menuitem name="Products" id="supermarket_product_menu" parent="supermarket_base_menu" action="supermarket_product_action"/>
+    <menuitem name="Calendar" id="supermarket_product_menu_calendar" parent="supermarket_base_menu" action="supermarket_product_calendar_action"/>
+
+    <!-- Calendar View -->
+    <record id="supermarket_product_view_calendar" model="ir.ui.view">
+        <field name="name">Supermarket Product Calendar</field>
+        <field name="model">supermarket.product</field>
+        <field name="arch" type="xml">
+            <calendar string="Purchase Calendar" date_start="date_purch" mode="month">
+                <field name="name"/>
+            </calendar>
+        </field>
+    </record>
+
+    <!-- Kanban View -->
+    <record id="supermarket_product_rent_view_kanban" model="ir.ui.view">
+        <field name="name">Product Kanban</field>
+        <field name="model">supermarket.product</field>
+        <field name="arch" type="xml">
+            <kanban default_group_by="state">
+                <field name="state"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_global_click">
+                            <div class="oe_kanban_content">
+                                <div class="oe_kanban_card">
+                                    <div>
+                                        <i class="fa fa-tag"/>
+                                        <b>
+                                            <field name="category_id"/>
+                                        </b>
+                                    </div>
+                                    <div class="text-muted">
+                                        <i class="fa fa-product"/>
+                                        <field name="name"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>    
+
+    <!-- Form View -->
+    <record id="supermarket_product_view_form" model="ir.ui.view">
+        <field name="name">Supermarket Product Form</field>
+        <field name="model">supermarket.product</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="make_available" string="Fresh" type="object"/>
+                    <button name="make_retired" string="Retired" type="object"/>
+                    <button name="make_replacement" string="Roten" type="object"/>
+                    <!--<button name="log_all_supermarket_members" string="Log Members" type="object"/>
+                    <button name="create_categories" string="Create Categories" type="object"/>
+                    <button name="change_purchase_date" string="Purchase Date" type="object"/>
+                    <button name="find_product" string="Find Product" type="object"/>-->
+                    <field name="state" widget="statusbar"/>
+                </header>
+                <group>
+                    <group>
+                        <field name="name"/>
+                        <field name="provider_ids" widget="many2many_tags"/>
+                    </group>
+                    <group>
+                        <field name="category_id"/>
+                        <field name="date_purch"/>
+                    </group>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <!-- Tree(list) View -->
+    <record id="library_book_view_tree" model="ir.ui.view">
+        <field name="name">Supermarket Product List</field>
+        <field name="model">supermarket.product</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="date_purch"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="supermarket_product_view_search" model="ir.ui.view">
+        <field name="name">Supermarket Product Search</field>
+        <field name="model">supermarket.product</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="provider_ids"/>
+                <filter string="Without Providers" name="without_provider" domain="[('provider_ids','=',False)]"/>
+                <filter string="unavailable Products" name="without_provider" domain="[('state','=','unavailable')]"/>
+            </search>
+        </field>
+    </record>
+
+</odoo>

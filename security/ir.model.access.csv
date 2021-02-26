@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+acl_product,supermarket.product_default,model_supermarket_product,,1,0,0,0
+acl_product_supermarket,supermarket.product_supermarket,model_supermarket_product,group_supermarket,1,1,1,1
+acl_supermarket_member,access_supermarket_member,model_supermarket_member,base.group_user,1,1,1,1
+acl_product_category,supermarket.product_category_default,model_supermarket_product_category,,1,0,0,0
+acl_product_category_product,supermarket.product_category_supermarket,model_supermarket_product_category,group_supermarket,1,1,1,1

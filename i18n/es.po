@@ -1,0 +1,619 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* modulo
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20201030\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-22 13:21+0000\n"
+"PO-Revision-Date: 2021-02-26 12:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__active_lang_count
+msgid "Active Lang Count"
+msgstr "Recuento de idioma activo"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__type
+msgid "Address Type"
+msgstr "Tipo de dirección"
+
+#. module: modulo
+#: model:ir.model.fields,help:modulo.field_supermarket_member__lang
+msgid "All the emails and documents sent to this contact will be translated in this language."
+msgstr "Todos los correos electrónicos y documentos enviados a este contacto serán traducidos a este idioma."
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_res_partner__authored_product_ids
+#: model:ir.model.fields,field_description:modulo.field_res_users__authored_product_ids
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__authored_product_ids
+msgid "Authored products"
+msgstr "Productos escritos"
+
+#. module: modulo
+#: model:ir.model.fields.selection,name:modulo.selection__supermarket_product__state__fresh
+msgid "Available"
+msgstr "Disponible"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__bank_ids
+msgid "Banks"
+msgstr "Bancos"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__barcode
+msgid "Barcode"
+msgstr "Código de barras"
+
+#. module: modulo
+#: model:ir.ui.menu,name:modulo.supermarket_product_menu_calendar
+msgid "Calendar"
+msgstr "Calendario"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product__category_id
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product_category__name
+msgid "Category"
+msgstr "Categoría"
+
+#. module: modulo
+#: model_terms:ir.ui.view,arch_db:modulo.report_products_view
+msgid "Category:"
+msgstr "Categoría:"
+
+#. module: modulo
+#: model:ir.model.fields,help:modulo.field_supermarket_member__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr "Comprueba si el contacto es una compañía, de lo contrario es una persona"
+
+#. module: modulo
+#: model:ir.model.fields,help:modulo.field_supermarket_member__employee
+msgid "Check this box if this contact is an Employee."
+msgstr "Comprueba esta caja si este contacto es un empleado"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product_category__child_ids
+msgid "Child Categories"
+msgstr "Categorías hijos"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__city
+msgid "City"
+msgstr "Ciudad"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__color
+msgid "Color Index"
+msgstr "Índice de color"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__commercial_partner_id
+msgid "Commercial Entity"
+msgstr "Entidad comercial"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__company_name
+msgid "Company Name"
+msgstr "Nombre compañia"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__commercial_company_name
+msgid "Company Name Entity"
+msgstr "Nombre de la entidad de la compañía"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__company_type
+msgid "Company Type"
+msgstr "Tipo de compañia"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__contact_address
+msgid "Complete Address"
+msgstr "Dirección completa"
+
+#. module: modulo
+#: model:ir.model,name:modulo.model_res_partner
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__child_ids
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: modulo
+#: model_terms:ir.ui.view,arch_db:modulo.supermarket_product_view_form
+msgid "Create Categories"
+msgstr "Crear categorías"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__create_uid
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product__create_uid
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product_category__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__create_date
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product__create_date
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product_category__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__credit_limit
+msgid "Credit Limit"
+msgstr "Límite de crédito"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__date_of_birth
+msgid "Date of birth"
+msgstr "Fecha de nacimiento"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product_category__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: modulo
+#: model_terms:ir.ui.view,arch_db:modulo.report_products_view
+msgid "Description:"
+msgstr "Descripción:"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_res_partner__display_name
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__display_name
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product__display_name
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product_category__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: modulo
+#: model:ir.model.fields,help:modulo.field_supermarket_member__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current partner is a customer without access or "
+"with a limited access created for sharing data."
+msgstr ""
+"Cualquier cliente (no usuario), cualquier usuario compartido. Indicó que el socio actual es un cliente sin acceso "
+"o con un acceso limitado creado para compartir datos."
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__email
+msgid "Email"
+msgstr "Email"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: modulo
+#: model_terms:ir.ui.view,arch_db:modulo.supermarket_product_view_form
+msgid "Find Product"
+msgstr "Encontrar producto"
+
+#. module: modulo
+#: model:ir.model.fields,help:modulo.field_supermarket_member__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr "Formato de la dirección email \"Nombre <email@propiedad>\""
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__email_formatted
+msgid "Formatted Email"
+msgstr "Email formateado"
+
+#. module: modulo
+#: model_terms:ir.ui.view,arch_db:modulo.supermarket_product_view_form
+msgid "Fresh"
+msgstr "Fresco"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__partner_latitude
+msgid "Geo Latitude"
+msgstr "Latitud Geo"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__partner_longitude
+msgid "Geo Longitude"
+msgstr "Longitud Geo"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_res_partner__id
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__id
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product__id
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product_category__id
+msgid "ID"
+msgstr "ID"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__image_1920
+msgid "Image"
+msgstr "Imagen"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__image_1024
+msgid "Image 1024"
+msgstr "Imagen 1024"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__image_128
+msgid "Image 128"
+msgstr "Imagen 128"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__image_256
+msgid "Image 256"
+msgstr "Imagen 256"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__image_512
+msgid "Image 512"
+msgstr "Imagen 512"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__industry_id
+msgid "Industry"
+msgstr "Industria"
+
+#. module: modulo
+#: model:ir.model.fields,help:modulo.field_supermarket_member__type
+msgid ""
+"Invoice & Delivery addresses are used in sales orders. Private addresses are only visible by authorized users."
+msgstr ""
+"Las direcciones de facturación y entrega se utilizan en los pedidos de venta. Las direcciones privadas solo son "
+"visibles para los usuarios autorizados."
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__is_company
+msgid "Is a Company"
+msgstr "Es una compañia"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__function
+msgid "Job Position"
+msgstr "Posición de trabajo"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__lang
+msgid "Language"
+msgstr "Idioma"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_res_partner____last_update
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member____last_update
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product____last_update
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product_category____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__write_uid
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product__write_uid
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product_category__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__write_date
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product__write_date
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product_category__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: modulo
+#: model_terms:ir.ui.view,arch_db:modulo.supermarket_product_view_form
+msgid "Log Members"
+msgstr "Miembros registrados"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__member_number
+msgid "Member Number"
+msgstr "Número de miembro"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__date_start
+msgid "Member Since"
+msgstr "Miembro desde"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__mobile
+msgid "Mobile"
+msgstr "Móvil"
+
+#. module: modulo
+#: code:addons/modulo/models/supermarket_product.py:0
+#, python-format
+msgid "Moving from %s to %s is not allowd"
+msgstr "Mover de %s a %s no está permitido"
+
+#. module: modulo
+#: model:ir.ui.menu,name:modulo.supermarket_base_menu
+msgid "My Supermarket"
+msgstr "Mi Supermercado"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__name
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: modulo
+#: model_terms:ir.ui.view,arch_db:modulo.report_products_view
+msgid "Not available"
+msgstr "No disponible"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__comment
+msgid "Notes"
+msgstr "Notas"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product_category__parent_id
+msgid "Parent Category"
+msgstr "Categoría padre"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product_category__parent_path
+msgid "Parent Path"
+msgstr "Parentesco de ruta"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__parent_name
+msgid "Parent name"
+msgstr "Parentesco del nombre"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__partner_id
+msgid "Partner"
+msgstr "Socio"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr "Socio con mismo ID de impuestos"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__phone
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: modulo
+#: model:ir.actions.act_window,name:modulo.supermarket_product_category_action
+#: model:ir.ui.menu,name:modulo.supermaket_product_category_menu
+msgid "Product Categories"
+msgstr "Categorías de productos"
+
+#. module: modulo
+#: model:ir.ui.menu,name:modulo.supermarket_product_menu model_terms:ir.ui.view,arch_db:modulo.report_products_view
+msgid "Products"
+msgstr "Productos"
+
+#. module: modulo
+#: model:ir.actions.report,name:modulo.report_products
+msgid "Products Report"
+msgstr "Reporte de productos"
+
+#. module: modulo
+#: model:ir.actions.report,name:modulo.report_products_pdf
+msgid "Products Report (PDF)"
+msgstr "Reporte de productos (PDF)"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product__provider_ids
+msgid "Provider"
+msgstr "Proveedor"
+
+#. module: modulo
+#: model_terms:ir.ui.view,arch_db:modulo.supermarket_product_view_calendar
+msgid "Purchase Calendar"
+msgstr "Calendario de compra"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product__date_purch
+#: model_terms:ir.ui.view,arch_db:modulo.supermarket_product_view_form
+msgid "Purchase Date"
+msgstr "Fecha de compra"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__ref
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__parent_id
+msgid "Related Company"
+msgstr "Compañía relacionada"
+
+#. module: modulo
+#: model:ir.model.fields.selection,name:modulo.selection__supermarket_product__state__replacement
+msgid "Replacement"
+msgstr "Reemplazar"
+
+#. module: modulo
+#: model:ir.model.fields.selection,name:modulo.selection__supermarket_product__state__retired
+#: model_terms:ir.ui.view,arch_db:modulo.supermarket_product_view_form
+msgid "Retired"
+msgstr "Retirado"
+
+#. module: modulo
+#: model_terms:ir.ui.view,arch_db:modulo.supermarket_product_view_form
+msgid "Roten"
+msgstr "Podrido"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__user_id
+msgid "Salesperson"
+msgstr "Vendedor"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__self
+msgid "Self"
+msgstr "A si mismo"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__partner_share
+msgid "Share Partner"
+msgstr "Socio compartido"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__state_id
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product__state
+msgid "State"
+msgstr "Estado"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__street
+msgid "Street"
+msgstr "Calle"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__street2
+msgid "Street2"
+msgstr "Calle 2"
+
+#. module: modulo
+#: model:ir.actions.act_window,name:modulo.supermarket_product_action
+#: model:ir.actions.act_window,name:modulo.supermarket_product_calendar_action
+msgid "Supermarket Products"
+msgstr "Productos del supermercado"
+
+#. module: modulo
+#: model:res.groups,name:modulo.group_supermarket
+msgid "Supermarkets"
+msgstr "Supermercados"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__category_id
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__vat
+msgid "Tax ID"
+msgstr "ID del impuesto"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__date_end
+msgid "Termination Date"
+msgstr "Fecha de conclusión"
+
+#. module: modulo
+#: model:ir.model.fields,help:modulo.field_supermarket_member__vat
+msgid ""
+"The Tax Identification Number. Complete it if the contact is subjected to government taxes. Used in some legal "
+"statements."
+msgstr ""
+"El número de identificación de impuestos. Rellénelo si el contacto está sujeto a impuestos gubernamentales. "
+"Utilizado en algunas declaraciones legales."
+
+#. module: modulo
+#: model:ir.model.fields,help:modulo.field_supermarket_member__user_id
+msgid "The internal user in charge of this contact."
+msgstr "El usuario interno a cargo de este contacto."
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__tz
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__tz_offset
+msgid "Timezone offset"
+msgstr "Desplazamiento de zona horaria"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__title
+msgid "Title"
+msgstr "Título"
+
+#. module: modulo
+#: model:ir.model.fields.selection,name:modulo.selection__supermarket_product__state__roten
+msgid "Unavailable"
+msgstr "Indisponible"
+
+#. module: modulo
+#: model:ir.model.fields,help:modulo.field_supermarket_member__barcode
+msgid "Use a barcode to identify this contact."
+msgstr "Usa el código de barras para identificar este contacto."
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__user_ids
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__website
+msgid "Website Link"
+msgstr "Enlace del sitio web"
+
+#. module: modulo
+#: model:ir.model.fields,help:modulo.field_supermarket_member__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+"Al imprimir documentos y exportar/importar datos, los valores de tiempo se calculan de acuerdo con esta zona "
+"horaria.\n"
+"Si no se establece la zona horaria, se utiliza UTC (hora universal coordinada).\n"
+"En cualquier otro lugar, los valores de tiempo se calculan de acuerdo con la diferencia horaria de su cliente web."
+
+#. module: modulo
+#: model_terms:ir.ui.view,arch_db:modulo.supermarket_product_view_search
+msgid "Without Providers"
+msgstr "Sin proveedores"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_member__zip
+msgid "Zip"
+msgstr "Zip"
+
+#. module: modulo
+#: model:ir.model.fields,field_description:modulo.field_supermarket_product_category__product_ids
+msgid "products"
+msgstr "productos"
+
+#. module: modulo
+#: model:ir.model,name:modulo.model_supermarket_member
+msgid "supermarket member"
+msgstr "miembro del supermercado"
+
+#. module: modulo
+#: model:ir.model,name:modulo.model_supermarket_product
+msgid "supermarket product"
+msgstr "supermercado.producto"
+
+#. module: modulo
+#: model:ir.model,name:modulo.model_supermarket_product_category
+msgid "supermarket.product.category"
+msgstr "supermercado.producto.categoría"
+
+#. module: modulo
+#: model_terms:ir.ui.view,arch_db:modulo.supermarket_product_view_search
+msgid "unavailable Products"
+msgstr "Productos no disponibles"

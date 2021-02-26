@@ -1,0 +1,83 @@
+﻿<odoo>
+    <data>
+
+        <!-- Defino el report -->
+        <report
+            id="report_products"
+            model="supermarket.product.category"
+            string="Products Report"
+            name="modulo.report_products_view"
+            file="modulo.report_products"
+            report_type="qweb-html" />
+
+        <!-- Lo mismo en PDF -->
+        <report
+            id="report_products_pdf"
+            model="supermarket.product.category"
+            string="Products Report (PDF)"
+            name="modulo.report_products_view"
+            file="modulo.report_products"
+            report_type="qweb-pdf" />            
+
+        <!-- Defino la plantilla para el report -->
+        <template id="report_products_view">
+            <t t-call="web.html_container">
+                <!-- Para cada proveedor -->
+                <t t-foreach="docs" t-as="doc">
+                    <t t-call="web.external_layout">
+                        <div class="page">
+                            <div class="container-fluid">
+                                <h2 class="text-center mt32">
+                                    Category:
+                                    <span t-field="doc.name"/>
+                                </h2>
+                                <div class="row mt32 mb32">
+                                    <div class="col-7">
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="text-right">
+                                        Description:</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="text-right">
+                                            <span t-field="doc.description"/>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row mt32 mb32 border p-2">
+                                    <div class="col-12">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Products</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr t-foreach="doc.product_ids" t-as="product">
+                                                    <td><span t-field="product.name"/></td>
+                                                    <td>
+                                                        <ul>
+                                                            <li t-foreach="product.provider_ids" t-as="provider">
+                                                               <span t-field="provider.name"/>
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                    <td>
+                                                        <!-- Ejemplo de if -->
+                                                        <t t-if="product.state == 'retired'">Not available</t>
+                                                        <t t-else=""></t>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>
